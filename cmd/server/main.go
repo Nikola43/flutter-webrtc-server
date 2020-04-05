@@ -1,12 +1,13 @@
 package main
 
 import (
+	"github.com/nikola43/flutter-webrtc-server/pkg/logger"
+	"github.com/nikola43/flutter-webrtc-server/pkg/signaler"
+	"github.com/nikola43/flutter-webrtc-server/pkg/turn"
+	"github.com/nikola43/flutter-webrtc-server/pkg/websocket"
 	"os"
 
-	"github.com/cloudwebrtc/flutter-webrtc-server/pkg/logger"
-	"github.com/cloudwebrtc/flutter-webrtc-server/pkg/signaler"
-	"github.com/cloudwebrtc/flutter-webrtc-server/pkg/turn"
-	"github.com/cloudwebrtc/flutter-webrtc-server/pkg/websocket"
+
 	"gopkg.in/ini.v1"
 )
 
