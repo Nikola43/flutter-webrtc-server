@@ -2,9 +2,9 @@
 echo "UPDATING REPO"
 git pull
 echo "BUILD API..."
-go build
+# go build
 echo "KILL API"
 sudo pkill server-linux-amd64
 echo "RUN API"
-./server-linux-amd64 &
+./bin/server-linux-amd64 &
 
